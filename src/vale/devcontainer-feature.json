@@ -1,0 +1,16 @@
+{
+    "name": "Vale doc linter",
+    "id": "vale",
+    "version": "0.1.0",
+    "description": "Install Vale, a syntax-aware linter for prose",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select or enter a Vale version to install"
+        }
+    }
+}
